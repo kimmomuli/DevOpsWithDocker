@@ -1,3 +1,5 @@
-# docker build . -t curler
+```
+docker build . -t curler
 
-# docker run -it curler
+docker run -it curler
+```
