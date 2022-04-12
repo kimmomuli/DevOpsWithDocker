@@ -1,0 +1,31 @@
+Alpine:
+
+# docker image pull devopsdockeruh/simple-web-service:alpine
+
+# docker run -d -it --name alpine devopsdockeruh/simple-web-service:alpine
+
+# docker exec -it alpine sh
+
+# tail -f ./text.log
+2022-04-06 13:46:20 +0000 UTC
+2022-04-06 13:46:22 +0000 UTC
+2022-04-06 13:46:24 +0000 UTC
+2022-04-06 13:46:26 +0000 UTC
+2022-04-06 13:46:28 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+
+Ubuntu:
+
+# docker image pull devopsdockeruh/simple-web-service:ubuntu
+
+# docker run -d -it --name ubuntu docker image pull devopsdockeruh/simple-web-service:ubuntu
+
+# docker exec -it alpine bash
+
+# tail -f ./text.log
+2022-04-06 13:46:20 +0000 UTC
+2022-04-06 13:46:22 +0000 UTC
+2022-04-06 13:46:24 +0000 UTC
+2022-04-06 13:46:26 +0000 UTC
+2022-04-06 13:46:28 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy' 
